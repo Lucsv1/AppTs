@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "../Button";
-import style from "./style.module.scss";
+import style from "./Formulario.module.scss";
 
 export const Formulario = () => {
   const [tarefa, setTarefa] = useState("");
@@ -38,7 +38,7 @@ export const Formulario = () => {
             required
           />
         </div>
-        <Button />
+        <Button title="inciar" />
       </form>
     </div>
   );
